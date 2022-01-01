@@ -62,7 +62,7 @@ output_df %>%
     columns = c(Pace_Diff), # ...for supp column!
     colors = scales::col_numeric( 
       palette = c(
-        "#1E9600","#FFF200","#FF0000"), # Two factor levels, two colors
+        "#FF0000","#FFF200","#1E9600"), # Two factor levels, two colors
       domain = c(-8, 6)# Levels
     )
   ) %>% 
